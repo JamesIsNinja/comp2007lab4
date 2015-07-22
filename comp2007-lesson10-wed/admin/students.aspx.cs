@@ -41,7 +41,7 @@ namespace comp2007_lesson10_wed
             }
             catch(Exception e)
             {
-                Response.Redirect("/error.aspx");
+                Response.Redirect("~/error.aspx");
             }
         }
 
@@ -72,7 +72,7 @@ namespace comp2007_lesson10_wed
             }
             catch (Exception q)
             {
-                Response.Redirect("/error.aspx");
+                Response.Redirect("~/error.aspx");
             }
         }
     }
