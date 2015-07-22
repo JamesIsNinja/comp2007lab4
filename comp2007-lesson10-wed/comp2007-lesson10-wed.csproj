@@ -129,9 +129,8 @@
       <LastGenOutput>ContosoModel.cs</LastGenOutput>
     </Content>
     <Content Include="packages.config" />
-    <None Include="Properties\PublishProfiles\comp2007-lesson6-wed.pubxml" />
-    <None Include="Properties\PublishProfiles\comp2007-lesson9-wed.pubxml" />
-    <None Include="Properties\PublishProfiles\contoso-wed.pubxml" />
+    <None Include="Properties\PublishProfiles\Comp2007Lab4S15 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\Comp2007Lab4S15 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
