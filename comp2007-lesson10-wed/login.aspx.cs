@@ -39,7 +39,7 @@ namespace comp2007_lesson10_wed
                     lblStatus.Text = "Invalid username or password.";
                 }
             }
-            catch (Exception e)
+            catch (Exception r)
             {
                 Response.Redirect("/error.aspx");
             }
