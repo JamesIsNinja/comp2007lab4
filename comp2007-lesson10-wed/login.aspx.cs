@@ -20,8 +20,7 @@ namespace comp2007_lesson10_wed
         }
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            try
-            {
+
                 var userStore = new UserStore<IdentityUser>();
                 var userManager = new UserManager<IdentityUser>(userStore);
                 var user = userManager.Find(txtUsername.Text, txtPassword.Text);
@@ -39,10 +38,6 @@ namespace comp2007_lesson10_wed
                     lblStatus.Text = "Invalid username or password.";
                 }
             }
-            catch (Exception r)
-            {
-                Response.Redirect("/error.aspx");
-            }
+
         }
     }
-}
